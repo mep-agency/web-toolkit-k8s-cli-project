@@ -1,19 +1,19 @@
 {
-    "name": "mep-agency/mwt-k8s-cli-skeleton",
+    "name": "mep-agency/web-toolkit-k8s-cli-project",
     "type": "project",
     "license": "MIT",
-    "description": "A skeleton to start deploying Symfony apps built with MEP Web Toolkit",
+    "description": "A project to start deploying Symfony apps built with MEP Web Toolkit",
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
         "php": "^8.0",
-        "mep-agency/mwt-k8s-cli": "^0.1"
+        "mep-agency/web-toolkit-k8s-cli": "^0.1"
     },
     "require-dev": {
     },
     "scripts": {
         "post-create-project-cmd": [
-            "rm README.md"
+            "rm ./README.md && rm ./LICENSE"
         ]
     },
     "config": {
@@ -26,7 +26,7 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "git@github.com:mep-agency/mwt-k8s-cli.git"
+            "url": "git@github.com:mep-agency/web-toolkit-k8s-cli.git"
         }
     ]
 }

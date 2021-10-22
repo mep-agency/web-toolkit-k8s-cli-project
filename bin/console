@@ -12,7 +12,7 @@
 
 declare(strict_types=1);
 
-use Mep\MwtK8sCli\K8sCli;
+use Mep\MepWebToolkitK8sCli\K8sCli;
 
 require_once __DIR__.'/../vendor/autoload.php';
 
